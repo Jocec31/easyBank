@@ -7,6 +7,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link media="all" rel="stylesheet" href="./compiled.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
   <title>Easybank landing page</title>
 </head>
 
@@ -14,10 +16,10 @@
   <!-- Début HEADER -->
   <header>
     <!-- début NAV  au delà du mobile -->
-    <nav class="hidden max-w-full mx-auto relative md:flex md:fixed items-center justify-center md:w-full md:bg-white md:py-6 md:top-0 md:z-50 md:shadow-lg">
+    <nav class="hidden max-w-full mx-auto relative lg:flex lg:fixed items-center justify-center md:w-full md:bg-white md:py-6 md:top-0 md:z-50 md:shadow-lg">
       <div class="md:left-0 md:inline md:absolute">
         <a href="#home">
-          <img src="./images/logo.svg" alt="icone rocket" class="ml-4 w-auto h-12 rounded-full hover:shadow-lg">
+          <img src="./images/logo.svg" alt="icone rocket" class="ml-4 w-auto h-8 rounded-full hover:shadow-lg">
         </a>
       </div>
       <ul class="md:flex md:space-x-10 nav-line">
@@ -31,14 +33,14 @@
     </nav>
 
     <!-- Navigation MOBILE -->
-    <nav class="fixed z-50 top-0 w-full left-1/2 transform -translate-x-1/2 shadow-md p-1 md:hidden rounded-lg bg-white">
-      <div class="px-5 h-16 flex items-center justify-between">
+    <nav class="fixed z-50 top-0 w-full left-1/2 transform -translate-x-1/2 p-1 lg:hidden rounded-lg bg-white">
+      <div class="px-5 h-14 flex items-center justify-between">
         <a href="#">
-          <img src="./images/logo.svg" alt="icone rocket" class="w-auto h-8 sm:h-10">
+          <img src="./images/logo.svg" alt="icone rocket" class="w-auto h-5">
         </a>
         <div class="mr-2">
           <button type="button" class="icone-toggle bg-white rounded-md p-2 inline-flex items-center justify-center">
-            <img src="./images/icon-hamburger.svg" alt="icone de menu" class="h-6 w-6 burger">
+            <img src="./images/icon-hamburger.svg" alt="icone de menu" class="h-6 w-8 burger">
           </button>
         </div>
       </div>
@@ -51,14 +53,21 @@
       </ul>
     </nav>
     <!-- Fin navigation MOBILE -->
-
     <!-- Fin NAV -->
-    Next generation digital banking
 
-    Take your financial life online. Your Easybank account will be a one-stop-shop
-    for spending, saving, budgeting, investing, and much more.
+    <!-- Début ACCUEIL HEADER -->
 
-    Request Invite
+    <div class="accueil flex flex-col justify-center bg-header-mobile bg-no-repeat bg-contain bg-top-right w-full">
+      <img src="./images/image-mockups.png" alt="image de téléphones mobiles entrecroisés" class="block w-11/12 mx-auto">
+      <h1 class="title w-11/12 text-4xl font-sans font-light text-center text-dark-blue py-5">Next generation digital banking</h1>
+      <p class="w-11/12 mx-auto text-grayish-blue">
+        Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.
+      </p>
+      <button class="transform translate-x-1/2 bg-gradient-to-r from-lime-green to-bright-cyan rounded-full w-1/2 py-3 mt-5 mb-12 px-0"><a href="#" class="text-very-light-gray">Request Invite</a></button>
+    </div>
+
+    <!-- Fin ACCUEIL HEADER -->
+
   </header>
   <!-- Fin HEADER -->
 
