@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 .mobile-nav {
-  box-shadow: 3px 8px 100px 80px hsl(233, 26%, 24%);
+  box-shadow: 0px 29px 150px 150px hsl(233, 26%, 24%);
 }
 
 button {

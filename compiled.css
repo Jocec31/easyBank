@@ -746,10 +746,6 @@ video {
   border-radius: 0.375rem;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
@@ -1953,7 +1949,7 @@ video {
 }
 
 .mobile-nav {
-  box-shadow: 3px 8px 100px 80px hsl(233, 26%, 24%);
+  box-shadow: 0px 29px 150px 150px hsl(233, 26%, 24%);
 }
 
 button {
