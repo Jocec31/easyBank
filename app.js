@@ -6,9 +6,9 @@ let burger = document.querySelector('.burger');
 
 btn.addEventListener('click', ()=>{
     menuresponsive.classList.toggle('hidden');
-    menuresponsive.classList.toggle('active-menu');
+    // menuresponsive.classList.toggle('active-menu');
 
-    if (menuresponsive.classList.contains("active-menu")){
+    if (!menuresponsive.classList.contains("hidden")){
         burger.setAttribute('src', './images/icon-close.svg');
     }else {
         burger.setAttribute('src', './images/icon-hamburger.svg');
@@ -19,5 +19,7 @@ btn.addEventListener('click', ()=>{
 linkmenu.forEach((item)=>{
     item.addEventListener('click', ()=>{
         menuresponsive.classList.toggle('hidden');
+        burger.setAttribute('src', './images/icon-hamburger.svg');
     });
+    
 });

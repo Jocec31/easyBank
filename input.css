@@ -6,6 +6,13 @@
 .mobile-nav {
   box-shadow: 3px 8px 100px 80px hsl(233, 26%, 24%);
 }
+button {
+  outline: none;
+  border: none;
+}
+img {
+  border: none;
+}
 .wrap-articles article img {
   width: 533px;
   height: 400px;
