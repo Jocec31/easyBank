@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.wrap-articles article img {
+  width: 533px;
+  height: 400px;
+}
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   .btn-header {
     width: 11rem;
@@ -15,13 +19,10 @@
   .accueil {
     height: 450px;
   }
+
 }
 @media screen and (min-width: 1280px) {
   .accueil {
     height: 550px;
-  }
-  article img {
-    width: 250px;
-    height: 200px;
   }
 }
