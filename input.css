@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.mobile-nav {
+  box-shadow: 3px 8px 100px 80px hsl(233, 26%, 24%);
+}
 .wrap-articles article img {
   width: 533px;
   height: 400px;
@@ -19,7 +22,6 @@
   .accueil {
     height: 450px;
   }
-
 }
 @media screen and (min-width: 1280px) {
   .accueil {

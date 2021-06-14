@@ -29,7 +29,7 @@
         <li><a href="#blog" class="font-medium text-lg text-black-500 hover:text-gray-900">Blog</a></li>
         <li><a href="#careers" class="font-medium text-lg text-black-500 hover:text-gray-900">Careers</a></li>
       </ul>
-      <a href="" class="mr-4 shadow-md px-6 py-2 border font-medium rounded-full text-indigo-600 bg-white hover:bg-gray-50 md:block md:absolute md:right-0">Request Invite</a>
+      <a href="" class="mr-4 shadow-md px-6 py-2 border font-medium rounded-full text-very-light-gray bg-gradient-to-r from-lime-green to-bright-cyan md:block md:absolute md:right-0">Request Invite</a>
     </nav>
 
     <!-- Navigation MOBILE -->
@@ -44,14 +44,15 @@
           </button>
         </div>
       </div>
-      <ul class="toggle-menu hidden p-2">
-        <li><a href="#home" class="block px-3 py-2 font-medium text-base text-black-500 hover:text-gray-900 hover:bg-gray-50">Home</a></li>
-        <li><a href="#about" class="block px-3 py-2 font-medium text-base text-black-500 hover:text-gray-900 hover:bg-gray-50"> About</a></li>
-        <li><a href="#contact" class="block px-3 py-2 font-medium text-base text-black-500 hover:text-gray-900 hover:bg-gray-50">Contact</a></li>
-        <li><a href="#blog" class="block px-3 py-2 font-medium text-base text-black-500 hover:text-gray-900 hover:bg-gray-50"> Blog</a></li>
-        <li><a href="#careers" class="block px-3 py-2 font-medium text-base text-black-500 hover:text-gray-900 hover:bg-gray-50"> Careers</a></li>
-      </ul>
     </nav>
+     
+    <ul class="toggle-menu mobile-nav hidden p-2 w-10/12 absolute top-20 left-1/2 bg-white text-center transform -translate-x-1/2 rounded-md text-dark-blue md:w-1/2 lg:hidden">
+      <li><a href="#home" class="block px-3 py-2 font-medium text-base text-black-500 hover:text-gray-900 hover:bg-gray-50">Home</a></li>
+      <li><a href="#about" class="block px-3 py-2 font-medium text-base text-black-500 hover:text-gray-900 hover:bg-gray-50"> About</a></li>
+      <li><a href="#contact" class="block px-3 py-2 font-medium text-base text-black-500 hover:text-gray-900 hover:bg-gray-50">Contact</a></li>
+      <li><a href="#blog" class="block px-3 py-2 font-medium text-base text-black-500 hover:text-gray-900 hover:bg-gray-50"> Blog</a></li>
+      <li><a href="#careers" class="block px-3 py-2 font-medium text-base text-black-500 hover:text-gray-900 hover:bg-gray-50"> Careers</a></li>
+    </ul>
     <!-- Fin navigation MOBILE -->
     <!-- Fin NAV -->
 
@@ -59,15 +60,15 @@
 
     <div class="accueil flex flex-col justify-center bg-header-mobile bg-contain bg-no-repeat bg-top-right w-full px-6 lg:flex-row lg:justify-between lg:items-center lg:bg-none lg:p-0 lg:overflow-x-hidden">
       <div class="mobile:hidden lg:block lg:w-1/2 lg:bg-header-desktop lg:h-full lg:order-2 xl:overflow-x-hidden">
-        <img src="./images/image-mockups.png" alt="image de téléphones mobiles entrecroisés" class="block w-full mx-auto lg:relative lg:w-3/4 lg:-right-40 lg:-top-0 xl:hidden">
+        <img src="./images/image-mockups.png" alt="image de téléphones mobiles entrecroisés" class="block w-full mx-auto md:w-3/4 md:mt-10 lg:relative lg:w-3/4 lg:-right-40 lg:-top-0 xl:hidden">
       </div>
-      <div class="hidden xl:block xl:w-1/2 xl:overflow-y-visible xl:overflow-x-hidden xl:absolute xl:right-0">
-        <img src="./images/image-mockups.png" alt="" class="xl:relative xl:w-full xl:top-18 xl:-right-36">
+      <div class="wrap-img-header hidden xl:block xl:w-1/2 xl:overflow-y-visible xl:overflow-x-hidden xl:absolute xl:right-0">
+        <img src="./images/image-mockups.png" alt="smartphones disposés en croix" class="img-header-scroll xl:relative xl:w-10/12 xl:top-16 xl:-right-60">
       </div>
 
       <!-- bloc demi header -->
       <div class="lg:w-1/2">
-        <h1 class="title w-full text-4xl font-sans font-light text-center text-dark-blue py-5 lg:text-left lg:text-6xl lg:ml-20 lg:mt-20">Next generation digital banking</h1>
+        <h1 class="title w-full text-4xl font-sans font-light text-center text-dark-blue py-5 lg:text-left lg:text-6xl lg:ml-16 lg:mt-20">Next generation digital banking</h1>
         <p class="w-full mx-auto text-grayish-blue text-justify md:text-center md:w-3/4 md:text-xl lg:text-left">
           Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.
         </p>
@@ -84,53 +85,53 @@
   <!-- ------------------------------------------------------ -->
 
   <!-- Début MAIN -->
-  <main class="bg-light-grayish-blue xl:w-full xl:z-10">
+  <main class="bg-light-grayish-blue xl:w-full xl:z-10 mt-10">
     <!-- Début Section AVANTAGES -->
-    <section class="avantages md:px-20 lg:px-5">
-      <h2 class="title w-full text-4xl text-dark-blue font-sans font-light text-center pt-4 pb-6 xl:w-full xl:text-left xl:ml-4">Why choose Easybank?</h2>
-      <p class="text-center w-full text-grayish-blue px-4 md:text-xl xl:text-left xl:w-2/3">We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
+    <section class="avantages md:px-10 lg:px-5">
+      <h2 class="title w-full text-4xl text-dark-blue font-sans font-light text-center py-12 lg:text-left lg:px-4 xl:w-full xl:text-6xl xl:ml-4 xl:pt-28">Why choose Easybank?</h2>
+      <p class="text-center w-full text-grayish-blue px-4 md:text-xl lg:text-2xl lg:text-left xl:w-1/2 xl:text-3xl">We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
 
       <!-- Début container avantages -->
-      <div class="flex flex-wrap justify-center items-center">
+      <div class="flex flex-wrap justify-center items-center py-8 md:justify-start">
         <!-- Online -->
-        <div class="w-full md:w-1/2 p-2 xl:w-1/4">
-          <div>
-            <img src="./images/icon-online.svg" alt="icône d'une main tenant des cartes bancaires" class="block">
-            <h3 class="title w-full text-xl text-dark-blue font-sans font-light text-center py-6 px-4 xl:text-left xl:pb-6 xl:pt-0">Online Banking</h3>
-            <p class="text-center w-full text-grayish-blue px-4 md:text-xl xl:text-left">
+        <div class="w-full md:w-1/2 p-2 xl:w-1/4 mt-6 mb-6">
+          <div class="md:h-72">
+            <img src="./images/icon-online.svg" alt="icône d'une main tenant des cartes bancaires" class="block mx-auto md:ml-5">
+            <h3 class="title w-full text-xl text-dark-blue font-sans font-light text-center py-6 px-4 md:text-left xl:text-3xl">Online Banking</h3>
+            <p class="text-center w-full text-grayish-blue px-4 md:text-xl md:text-left xl:text-2xl">
               Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world.
             </p>
           </div>
         </div>
 
         <!-- Simple -->
-        <div class="w-full md:w-1/2 p-2 xl:w-1/4">
-          <div>
-            <img src="./images/icon-budgeting.svg" alt="icône représentant un smartphone avec le sigle dollar par dessus" class="block px-4">
-            <h3 class="title w-full text-xl text-dark-blue font-sans font-light text-center py-6 px-4 xl:text-left">Simple Budgeting</h3>
-            <p class="text-center w-full text-grayish-blue px-4 md:text-xl xl:text-left">
+        <div class="w-full md:w-1/2 p-2 xl:w-1/4 mb-6 md:mt-6">
+          <div class="md:h-72">
+            <img src="./images/icon-budgeting.svg" alt="icône représentant un smartphone avec le sigle dollar par dessus" class="block mx-auto md:ml-5">
+            <h3 class="title w-full text-xl text-dark-blue font-sans font-light text-center py-6 px-4 md:text-left xl:text-3xl">Simple Budgeting</h3>
+            <p class="text-center w-full text-grayish-blue px-4 md:text-xl md:text-left xl:text-2xl">
               See exactly where your money goes each month. Receive notifications when you’re close to hitting your limits.
             </p>
           </div>
         </div>
 
         <!-- Fast -->
-        <div class="w-full md:w-1/2 p-2 xl:w-1/4">
-          <div>
-            <img src="./images/icon-onboarding.svg" alt="icône représentant un groupe de personnes autour d'un mécanisme de rouage" class="block px-4">
-            <h3 class="title w-full text-xl text-dark-blue font-sans font-light text-center py-6 px-4 xl:text-left">Fast Onboarding</h3>
-            <p class="text-center w-full text-grayish-blue px-4 md:text-xl xl:text-left">
+        <div class="w-full md:w-1/2 p-2 xl:w-1/4 mb-6 md:mt-6">
+          <div class="md:h-72">
+            <img src="./images/icon-onboarding.svg" alt="icône représentant un groupe de personnes autour d'un mécanisme de rouage" class="block mx-auto md:ml-5">
+            <h3 class="title w-full text-xl text-dark-blue font-sans font-light text-center py-6 px-4 md:text-left xl:text-3xl">Fast Onboarding</h3>
+            <p class="text-center w-full text-grayish-blue px-4 md:text-xl md:text-left xl:text-2xl">
               We don’t do branches. Open your account in minutes online and start taking control of your finances right away.
             </p>
           </div>
         </div>
 
         <!-- Api -->
-        <div class="w-full md:w-1/2 p-2 xl:w-1/4">
-          <div>
-            <img src="./images/icon-api.svg" alt="icône représentant un cerveau dans un processeur" class="block px-4">
-            <h3 class="title w-full text-xl text-dark-blue font-sans font-light text-center py-6 px-4 xl:text-left">Open API</h3>
-            <p class="text-center w-full text-grayish-blue px-4 md:text-xl xl:text-left">
+        <div class="w-full md:w-1/2 p-2 xl:w-1/4 mb-6 md:mt-6">
+          <div class="md:h-72">
+            <img src="./images/icon-api.svg" alt="icône représentant un cerveau dans un processeur" class="block mx-auto md:ml-5">
+            <h3 class="title w-full text-xl text-dark-blue font-sans font-light text-center py-6 px-4 md:text-left xl:text-3xl">Open API</h3>
+            <p class="text-center w-full text-grayish-blue px-4 md:text-xl md:text-left xl:text-2xl">
               Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier.
             </p>
           </div>
@@ -142,8 +143,8 @@
     <!-- ------------------------------------------------------ -->
 
     <!-- Début Section ARTICLES -->
-    <section class="articles bg-very-light-gray md:px-20 lg:px-5">
-      <h2 class="title w-full text-4xl text-dark-blue font-sans font-light text-center pt-4 pb-6">Latest Articles</h2>
+    <section class="articles bg-very-light-gray md:px-10 lg:px-5">
+      <h2 class="title w-full text-4xl text-dark-blue font-sans font-light text-center py-8 lg:text-left xl:text-6xl lg:px-6 lg:py-12">Latest Articles</h2>
 
       <!-- Début container articles -->
       <!-- <div class="wrap-articles px-4 flex flex-wrap"> -->
@@ -151,12 +152,12 @@
         <!-- Début ARTICLE 1 -->
 
         <article class="w-full md:w-1/2 p-2 xl:w-1/4">
-          <div class="bg-white">
+          <div class="bg-white rounded-md shadow-md">
             <img src="./images/image-currency.jpg" alt="billets de banque" class="rounded-md h-60 w-full object-cover object-center">
 
-            <p class="">By Claire Robinson</p>
-            <h4 class="">Receive money in any currency with no fees</h4>
-            <p class="h-auto">
+            <p class="text-sm text-grayish-blue px-8 py-4">By Claire Robinson</p>
+            <h4 class="text-dark-blue px-8 pb-4 md:text-xl">Receive money in any currency with no fees</h4>
+            <p class="text-grayish-blue px-8 h-40">
               The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single …
             </p>
           </div>
@@ -166,11 +167,11 @@
         <!-- Début ARTICLE 2 -->
 
         <article class="w-full md:w-1/2 p-2 xl:w-1/4">
-          <div class="bg-white">
+          <div class="bg-white rounded-md shadow-md">
             <img src="./images/image-restaurant.jpg" alt="assiette sur une table de restaurant" class="rounded-md h-60 w-full object-cover object-center">
-            <p class="">By Wilson Hutton</p>
-            <h4 class="">Treat yourself without worrying about money</h4>
-            <p class="">
+            <p class="text-sm text-grayish-blue px-8 py-4">By Wilson Hutton</p>
+            <h4 class="text-dark-blue px-8 pb-4 md:text-xl">Treat yourself without worrying about money</h4>
+            <p class="text-grayish-blue px-8 h-40">
               Our simple budgeting feature allows you to separate out your spending and set realistic limits each month.That means you…
             </p>
           </div>
@@ -178,11 +179,11 @@
         <!-- Fin ARTICLE 2 -->
         <!-- Début ARTICLE 3 -->
         <article class="w-full md:w-1/2 p-2 xl:w-1/4">
-          <div class="bg-white">
+          <div class="bg-white rounded-md shadow-md">
             <img src="./images/image-restaurant.jpg" alt="assiette sur une table de restaurant" class="rounded-md h-60 w-full object-cover object-center">
-            <p class="">By Wilson Hutton</p>
-            <h4 class="">Take your Easybank card wherever you go</h4>
-            <p class="">
+            <p class="text-sm text-grayish-blue px-8 py-4">By Wilson Hutton</p>
+            <h4 class="text-dark-blue px-8 pb-4 md:text-xl">Take your Easybank card wherever you go</h4>
+            <p class="text-grayish-blue px-8 h-40">
               We want you to enjoy your travels. This is why we don’t charge any fees on purchases while you’re abroad. We’ll even show you …
             </p>
           </div>
@@ -190,12 +191,12 @@
         <!-- Fin ARTICLE 3 -->
         <!-- Début ARTICLE 4 -->
         <article class="w-full md:w-1/2 p-2 xl:w-1/4">
-          <div class="bg-white">
+          <div class="bg-white rounded-md shadow-md">
             <img src="./images/image-restaurant.jpg" alt="assiette sur une table de restaurant" class="rounded-md h-60 w-full object-cover object-center">
-            <p class="">By Claire Robinson</p>
-            <h4 class="">Take your Easybank card wherever you go</h4>
-            <p class="">
-              After a lot of hard work by the whole team, we’re excited to launch our closed beta. It’s easy to request an invite through the site ...
+            <p class="text-sm text-grayish-blue px-8 py-4">By Claire Robinson</p>
+            <h4 class="text-dark-blue px-8 pb-4 md:text-xl">Take your Easybank card wherever you go</h4>
+            <p class="text-grayish-blue px-8 h-40">
+              After a lot of hard work by the whole team, we’re excited to launch our closed beta. It’s easy to request an invite through the site
             </p>
           </div>
         </article>
