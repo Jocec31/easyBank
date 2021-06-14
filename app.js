@@ -3,7 +3,6 @@ const btn = document.querySelector('.icone-toggle');
 let linkmenu = document.querySelectorAll('.toggle-menu li a');
 let burger = document.querySelector('.burger');
 
-
 btn.addEventListener('click', ()=>{
     menuresponsive.classList.toggle('hidden');
     // menuresponsive.classList.toggle('active-menu');

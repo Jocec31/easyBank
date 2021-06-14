@@ -16,18 +16,18 @@
   <!-- Début HEADER -->
   <header class="w-full">
     <!-- début NAV  au delà du mobile -->
-    <nav class="hidden max-w-full mx-auto relative lg:flex lg:fixed items-center justify-center md:w-full md:bg-white md:py-6 md:top-0 md:z-50 md:shadow-lg">
+    <nav class="hidden max-w-full mx-auto relative lg:p-0 lg:h-16 lg:flex lg:fixed lg:items-center lg:justify-center md:w-full md:bg-white md:py-6 md:top-0 md:z-50 md:shadow-sm">
       <div class="md:left-0 md:inline md:absolute">
         <a href="#home">
           <img src="./images/logo.svg" alt="icone rocket" class="ml-4 w-auto h-8 rounded-full hover:shadow-lg">
         </a>
       </div>
-      <ul class="md:flex md:space-x-10 nav-line">
-        <li><a href="#home" class="font-medium text-lg text-black-500 hover:text-gray-900">Home</a></li>
-        <li><a href="#about" class="font-medium text-lg text-black-500 hover:text-gray-900">About</a></li>
-        <li><a href="#contact" class="font-medium text-lg text-black-500 hover:text-gray-900">Contact</a></li>
-        <li><a href="#blog" class="font-medium text-lg text-black-500 hover:text-gray-900">Blog</a></li>
-        <li><a href="#careers" class="font-medium text-lg text-black-500 hover:text-gray-900">Careers</a></li>
+      <ul class="md:flex md:space-x-10 nav-line h-full self-auto">
+        <li class="lg:h-full hover:border-b-2 hover:border-green-400"><a href="#home" class="font-medium text-lg lg:block lg:transform lg:translate-y-1/2 lg:mt-1">Home</a></li>
+        <li class="h-full hover:border-b-2 hover:border-green-400"><a href="#about" class="font-medium text-lg lg:block lg:transform lg:translate-y-1/2 lg:mt-1">About</a></li>
+        <li class="h-full hover:border-b-2 hover:border-green-400"><a href="#contact" class="font-medium text-lg lg:block lg:transform lg:translate-y-1/2 lg:mt-1">Contact</a></li>
+        <li class="h-full hover:border-b-2 hover:border-green-400"><a href="#blog" class="font-medium text-lg lg:block lg:transform lg:translate-y-1/2 lg:mt-1">Blog</a></li>
+        <li class="h-full hover:border-b-2 hover:border-green-400"><a href="#careers" class="font-medium text-lg lg:block lg:transform lg:translate-y-1/2 lg:mt-1">Careers</a></li>
       </ul>
       <a href="#" class="mr-4 shadow-md px-6 py-2 border font-medium rounded-full text-very-light-gray bg-gradient-to-r from-lime-green to-bright-cyan md:block md:absolute md:right-0 active:opacity-50">Request Invite</a>
     </nav>
@@ -46,7 +46,7 @@
       </div>
     </nav>
 
-    <ul class="toggle-menu mobile-nav hidden p-2 w-10/12 absolute top-20 left-1/2 bg-white text-center transform -translate-x-1/2 rounded-md text-dark-blue md:w-1/2 lg:hidden">
+    <ul class="fixed z-50 toggle-menu mobile-nav hidden p-2 w-10/12 top-20 left-1/2 bg-white text-center transform -translate-x-1/2 rounded-md text-dark-blue md:w-1/2 lg:hidden">
       <li><a href="#home" class="block px-3 py-2 font-medium text-base text-black-500 hover:text-gray-900 hover:bg-gray-50">Home</a></li>
       <li><a href="#about" class="block px-3 py-2 font-medium text-base text-black-500 hover:text-gray-900 hover:bg-gray-50"> About</a></li>
       <li><a href="#contact" class="block px-3 py-2 font-medium text-base text-black-500 hover:text-gray-900 hover:bg-gray-50">Contact</a></li>
@@ -59,11 +59,11 @@
     <!-- Début ACCUEIL HEADER -->
 
     <div class="accueil flex flex-col justify-center bg-header-mobile bg-contain bg-no-repeat bg-top-right w-full px-6 lg:flex-row lg:justify-between lg:items-center lg:bg-none lg:p-0 lg:overflow-x-hidden">
-      <div class="mobile:hidden lg:block lg:w-1/2 lg:bg-header-desktop lg:h-full lg:order-2 xl:overflow-x-hidden">
-        <img src="./images/image-mockups.png" alt="image de téléphones mobiles entrecroisés" class="block w-full mx-auto md:w-3/4 md:mt-10 lg:relative lg:w-3/4 lg:-right-40 lg:-top-0 xl:hidden">
+      <div class="bg-image mobile:hidden lg:block lg:w-1/2 lg:bg-header-desktop lg:h-full lg:order-2 xl:overflow-x-hidden">
+        <img src="./images/image-mockups.png" alt="image de téléphones mobiles entrecroisés" class="block w-full mx-auto md:w-3/4 md:mt-10 lg:relative lg:w-3/4 lg:-right-28 lg:-top-0 xl:hidden">
       </div>
-      <div class="wrap-img-header hidden xl:block xl:w-1/2 xl:overflow-y-visible xl:overflow-x-hidden xl:absolute xl:right-0">
-        <img src="./images/image-mockups.png" alt="smartphones disposés en croix" class="img-header-scroll xl:relative xl:w-10/12 xl:top-16 xl:-right-60">
+      <div class="wrap-img-header hidden xl:block xl:w-1/2 xl:overflow-y-hidden xl:overflow-x-hidden xl:absolute xl:right-0">
+        <img src="./images/image-mockups.png" alt="smartphones disposés en croix" class="img-header-scroll xl:relative xl:w-10/12 xl:top-7 xl:-right-60 xl:z-40">
       </div>
 
       <!-- bloc demi header -->
@@ -72,7 +72,7 @@
         <p class="w-full mx-auto text-grayish-blue text-justify md:text-center md:w-3/4 md:text-xl lg:text-left">
           Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.
         </p>
-        <button class="btn-header active:opacity-50 transform translate-x-1/2 bg-gradient-to-r from-lime-green to-bright-cyan rounded-full w-1/2 py-3 mt-5 mb-12 px-0 md:w-44 lg:mt-10"><a href="#" class="text-very-light-gray">Request Invite</a></button>
+        <button class="btn-header focus:outline-none active:opacity-50 transform translate-x-1/2 bg-gradient-to-r from-lime-green to-bright-cyan rounded-full w-1/2 py-3 mt-5 mb-12 px-0 md:w-44 lg:mt-10"><a href="#" class="text-very-light-gray">Request Invite</a></button>
       </div>
       <!-- bloc demi header -->
     </div>
@@ -85,10 +85,10 @@
   <!-- ------------------------------------------------------ -->
 
   <!-- Début MAIN -->
-  <main class="bg-light-grayish-blue xl:w-full xl:z-10 mt-10">
+  <main class="bg-light-grayish-blue xl:w-full xl:z-0 pb-10">
     <!-- Début Section AVANTAGES -->
     <section class="avantages md:px-10 lg:px-5">
-      <h2 class="title w-full text-4xl text-dark-blue font-sans font-light text-center py-12 lg:text-left lg:px-4 xl:w-full xl:text-6xl xl:ml-4 xl:pt-28">Why choose Easybank?</h2>
+      <h2 class="title w-full text-4xl text-dark-blue font-sans font-light text-center py-12 lg:text-left lg:px-4 xl:w-full xl:text-6xl xl:pt-16">Why choose Easybank?</h2>
       <p class="text-center w-full text-grayish-blue px-4 md:text-xl lg:text-2xl lg:text-left xl:w-1/2 xl:text-3xl">We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
 
       <!-- Début container avantages -->
@@ -232,7 +232,7 @@
     </ul>
 
     <div class="lg:w-1/3">
-      <button class="block my-10 py-4 px-4 bg-gradient-to-r from-lime-green to-bright-cyan rounded-full w-full text-very-light-gray lg:w-56 lg:mx-auto">Request Invite</button>
+      <button class="focus:outline-none active:opacity-50 block my-10 py-4 px-4 bg-gradient-to-r from-lime-green to-bright-cyan rounded-full w-full text-very-light-gray lg:w-56 lg:mx-auto">Request Invite</button>
 
       <div class="attribution w-full text-center text-grayish-blue">
         <p>© Easybank. All Rights Reserved</p>
