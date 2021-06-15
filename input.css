@@ -22,6 +22,39 @@ img {
   width: 533px;
   height: 400px;
 }
+
+/* changer le fill des svg réseaux sociaux */
+.fb:hover {
+  cursor: pointer;
+}
+.fb svg:hover path{
+  fill: hsl(136, 65%, 51%);
+}
+.youtube:hover {
+  cursor: pointer;
+}
+.youtube svg:hover path{
+  fill: hsl(136, 65%, 51%);
+}
+.twitter:hover {
+  cursor: pointer;
+}
+.twitter svg:hover path{
+  fill: hsl(136, 65%, 51%);
+}
+.pinterest:hover {
+  cursor: pointer;
+}
+.pinterest svg:hover path{
+  fill: hsl(136, 65%, 51%);
+}
+.instagram:hover {
+  cursor: pointer;
+}
+.instagram svg:hover path{
+  fill: hsl(136, 65%, 51%);
+}
+/* médias queries */
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   .btn-header {
     width: 11rem;
